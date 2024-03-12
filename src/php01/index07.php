@@ -1,7 +1,8 @@
 <?php
 	// 1-1
 	$people = array('Taro', 'Jiro', 'Saburo');
-	var_dump($people) .'<br>'; 
+	var_dump($people);
+	print '<br>';  
 
 	// 2-1
 	$people = array(
@@ -10,7 +11,8 @@
 		'person3' => 'Saburo',
   	); 
   
-  	var_dump($people).'<br>'; 
+  	var_dump($people);
+	print '<br>'; 
 
 	// 2-2
 	$people = [
@@ -18,7 +20,8 @@
 		'person2' => 'jiro',
   	];  
   
-  	echo $people["person1"] .'<br>';	// taro
+  	echo $people["person1"];	// taro
+	print '<br>';
 
 	// 3-1
 	$people = [
@@ -41,7 +44,8 @@
 		  "gender" => "女性"
 		]
   	];  
-	echo $people[0]["last_name"] .'<br>';	// 山田
+	echo $people[0]["last_name"];	// 山田
+	print '<br>';
 	
 	// 4-1
 	$people = array('Taro', 'Jiro', 'Saburo');
@@ -51,7 +55,8 @@
   		echo '<br />';
 		;
 	}	
-	
+	print '<br>';
+
 	// 4-2
 	$people = array(
   		'person1' => 'Taro',
@@ -62,4 +67,5 @@
 	foreach ($people as $person => $name) {
   		print $person . "は" . $name . "です" . '<br />';
 	}
+	print '<br>';
 ?>
