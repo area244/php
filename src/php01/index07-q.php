@@ -1,4 +1,5 @@
 <?php
+	// 1
 	$people = [
 		['Taro', 25, 'men'],
 		['Jiro', 20, 'men'],
